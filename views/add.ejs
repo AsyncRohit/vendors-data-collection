@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+<div class="main w-full min-h-screen bg-blue-300 ">
+    <div class="w-full pt-5 pb-5 bg-blue-700">
+    <div class="left px-10  ">
+        <a class="text-2xl mr-5 text-gray-900 hover:text-gray-200 transition-all duration-900 tracker-tighter" href="/">←Home</a>
+        <a class="text-2xl  text-gray-900 hover:text-gray-200 transition-all duration-900 tracker-tighter" href="/users">←Back</a>
+    </div>
+    
+
+    </div>
+
+    <div class="second w-full   flex justify-center items-center text-center">
+            <form class="mt-40" action="/create" method="post" >
+                <input class="px-9 py-3  rounded-md outine-none  block" type="text" placeholder="name" name="name" >
+                <input class="px-9 py-3  rounded-md outine-none  block mt-8" type="text" placeholder="Shop Name" name="shopname">
+                <input class="px-9 py-3  rounded-md outine-none  block mt-8" type="text" placeholder="address" name="address">
+                <input class="px-9 py-3  rounded-md outine-none  block mt-8" type="number" placeholder="age" name="age">
+                <input class="px-7 py-3  rounded-md bg-blue-700 text-white mt-8" type="submit" value="Submit">
+            </form>
+        </div>
+</div>
+    
+</body>
+</html>
